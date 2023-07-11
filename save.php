@@ -8,5 +8,5 @@ $tinggibadan=$_POST['tinggibadan'];
 mysqli_query($conn,"INSERT INTO penulis(nmpenulis,alamat,tgllahir,tinggibadan)
 VALUES('$nmpenulis','$alamat','$tgllahir','$tinggibadan')");
 
-
+header('Location: menampilkan.php');
 ?>
